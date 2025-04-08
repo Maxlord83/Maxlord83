@@ -8,15 +8,15 @@ import pytz
 import requests  # for making API calls if needed (not used in this sample)
 
 # Load environment variables (Telegram bot token and target chat ID)
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-USER_CHAT_ID = os.getenv("USER_CHAT_ID")
+BOT_TOKEN = os.getenv("8028954287:AAHzmvwla65L8oY0LDpqXT-TDzOrDzRUwt4")
+USER_CHAT_ID = os.getenv("931449387")
 
 if not BOT_TOKEN or not USER_CHAT_ID:
-    print("Missing BOT_TOKEN or USER_CHAT_ID environment variable.")
+    print("Missing 8028954287:AAHzmvwla65L8oY0LDpqXT-TDzOrDzRUwt4 or 931449387 environment variable.")
     exit(1)
 
 # Initialize the Telegram Bot
-bot = Bot(token=BOT_TOKEN)
+bot = Bot(token=8028954287:AAHzmvwla65L8oY0LDpqXT-TDzOrDzRUwt4)
 
 def compose_message():
     """Compose the content of the scheduled message (simulate data)."""
